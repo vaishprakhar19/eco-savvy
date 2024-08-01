@@ -90,7 +90,7 @@ export function Home() {
                 <NavLink to='/News' className='button' id="read-more">Read More</NavLink>
             </div>
             <div id='footer'>
-                Copyright@EcoSavvy2023
+                Copyright@EcoSavvy2024
             </div>
         </div>
     )

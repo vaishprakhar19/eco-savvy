@@ -10,7 +10,8 @@ html{
 
 .blur {
     backdrop-filter: blur(5px);
-    height:280em;
+    height:fit-content;
+    padding-bottom:50px;
 }
 
 .home {
@@ -90,6 +91,7 @@ margin-top: 20px;
     background-color: black;
     color: grey;
     padding: 10px 0px;
+    height:40px;
 }
 #news-section{
     padding: 0px 55px;

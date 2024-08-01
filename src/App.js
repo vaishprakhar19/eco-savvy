@@ -14,12 +14,13 @@ function App() {
     <div className="App">
       <Navbar/>
       <Routes>
-          <Route path='/' element={<Navigate to="/Home"/>}/>
+          <Route exact path='/' element={<Navigate to="/Home"/>}/>
           <Route path='/Home' element={<Home/>}/>
           <Route path='/About' element={<About/>}/>
           <Route path='/News' element={<News/>}/> 
           <Route path='/CFC' element={<Carbon/>}/>
           <Route path='/GPT' element={<ChatGPT/>}/>
+          <Route path='*' element={<Navigate to='/home'></Navigate>}/>
         </Routes>
     </div>
   );
