@@ -13,7 +13,7 @@ function App() {
  
     <div className="App">
       <Navbar/>
-      <Routes basename="/EcoSavvy">
+      <Routes>
           <Route path='/' element={<Navigate to="/Home"/>}/>
           <Route path='/Home' element={<Home/>}/>
           <Route path='/About' element={<About/>}/>
